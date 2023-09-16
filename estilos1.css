@@ -1,0 +1,229 @@
+
+/*
+CABE�ALHO  
+background-size: cover;   
+display: flex; 
+flex-direction: column;
+background-repeat: no-repeat;
+<img src="imagem.jpg">
+<img src="imagens/imagem.jpg">
+<img src="img/logotipo_01.jpg" title="Logo da Empresa">
+*/
+body {
+    background: rgb(15,15,15);
+    background: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(33,33,33,1) 100%);
+    font-family: 'Roboto';
+}
+p {
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+h6{
+    color: white;
+}
+a{
+    color: white;
+}
+
+header {
+	height: 145px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-position: left;
+    color: black;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-right: 1600px;
+}	
+
+
+/*
+NAVEGA��O
+*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #190fa8;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+    filter: brightness(0.8);
+    transition: 0.2s all;
+}
+
+nav ul li a:hover{
+    filter: brightness(1);
+}
+
+
+/*
+SERVI�OS
+*/
+
+#servicos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#servicos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/*
+FOOTER
+*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #252525;
+    color: #f1f1f1;
+}
+
+/*
+MEDIA QUERIES
+
+@media screen and (min-width: 768px) {
+    /*
+    NAVEGA��O
+    */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    
+    /*
+    SOBRE
+    */
+    
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+    
+    /*
+    SERVI�OS
+    */
+    
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #servicos div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    
+    /*
+    PORTFOLIO
+    */
+    
+    #portfolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #portfolio h2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #portfolio img {
+        width: 33.3333333333%;
+    }
+    
+    /*
+    CONTATO
+    */
+    
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+
